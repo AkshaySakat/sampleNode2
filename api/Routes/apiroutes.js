@@ -74,7 +74,8 @@ router.delete('/deleteemp', async(req,res)=>{
 
 
 router.get('/', (req,res) => {
-    res.sendFile(path.join(__dirname, '../todo_frontend/build/index.html'));
+    res.send('Welcome to heroku...');
+    // res.sendFile(path.join(__dirname, '../todo_frontend/build/index.html'));
   });
 
   module.exports = router
