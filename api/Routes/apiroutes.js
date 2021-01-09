@@ -6,7 +6,7 @@ const path = require('path');
 const router = express.Router();
 
 // middleware
-app.use(express.static(path.join(__dirname, '../todo_frontend/dist')));
+// app.use(express.static(path.join(__dirname, '../todo_frontend/dist')));
 
 // Add employee
 router.post('/addemp', async(req,res)=>{
